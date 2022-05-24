@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/kongguksu/3columns-preview-component.git]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://kongguksu.github.io/3columns-preview-component/]
 
 ## My process
 
