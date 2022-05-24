@@ -1,0 +1,180 @@
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+
+- FONT SIZES (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* General */
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  width: 60rem;
+  box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  padding: 3rem;
+}
+
+/* Colors */
+.card-orange {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 0.55rem;
+  border-bottom-left-radius: 0.55rem;
+}
+
+.card-green {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-darkgreen {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 0.55rem;
+  border-bottom-right-radius: 0.55rem;
+}
+
+/* Icons */
+.card-icon {
+  margin-bottom: 2rem;
+}
+
+/* Text */
+.heading {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+
+  margin-bottom: 2rem;
+}
+
+.summary {
+  line-height: 1.6;
+
+  padding-right: 1.3rem;
+  margin-bottom: 5.3rem;
+}
+
+/* Buttons */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1.08rem 2.1rem;
+  border-radius: 100rem;
+  transition: all 0.25s;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover,
+.btn:active {
+  box-shadow: 0 0 0 2px #fff;
+}
+
+.btn-orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-orange:hover,
+.btn-orange:active {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.btn-green {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-green:hover,
+.btn-green:active {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.btn-darkgreen {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn-darkgreen:hover,
+.btn-darkgreen:active {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+/* Attribution */
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
