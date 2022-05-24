@@ -1,5 +1,5 @@
 /* Width: Below 992px */
-@media (max-width: 24em) {
+@media (max-width: 32em) {
   .grid-3-cols {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
