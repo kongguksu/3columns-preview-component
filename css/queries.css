@@ -1,16 +1,22 @@
-/* Width: Below 992px */
-@media (max-width: 32em) {
+/* Width: Below 1088px */
+@media (max-width: 68em) {
   .grid-3-cols {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 20rem;
+    width: 40rem;
 
     margin: 5rem 0rem;
   }
 
+  .card {
+    padding: 5rem;
+  }
+
   .summary {
-    padding-right: 0.5rem;
-    margin-bottom: 1.9rem;
+    font-size: 1.1rem;
+
+    padding-right: 3rem;
+    margin-bottom: 4.3rem;
   }
 
   .card-orange {
@@ -28,5 +34,39 @@
   .btn:link,
   .btn:visited {
     transition: all 0.15s;
+  }
+}
+
+/* Width: Below 752px */
+@media (max-width: 47em) {
+  .grid-3-cols {
+    width: 30rem;
+  }
+
+  .card {
+    padding: 4.3rem;
+  }
+
+  .summary {
+    padding-right: 1.5rem;
+    margin-bottom: 3.3rem;
+  }
+}
+
+/* Width: Below 512px */
+@media (max-width: 32em) {
+  .grid-3-cols {
+    width: 20rem;
+  }
+
+  .card {
+    padding: 3rem;
+  }
+
+  .summary {
+    font-size: 0.9rem;
+
+    padding-right: 0.5rem;
+    margin-bottom: 1.9rem;
   }
 }
